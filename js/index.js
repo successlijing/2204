@@ -1,10 +1,14 @@
 
 
-export default class Problem{
-  defaultProps={
-    name:'zs',
-    age:22
-  }
+ export default class Problem{
+   defaultProps={
+     name:'zs',
+     age:22
+   }
+   status={
+     goods:'小王',
+     info:'6666'
+   }
     //实例化类自动调用
     constructor(){
         //获取保存按钮，绑定点击事件
